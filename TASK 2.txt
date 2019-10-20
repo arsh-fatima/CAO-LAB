@@ -1,0 +1,15 @@
+Take two numbers as input and print the larger number.
+
+IN
+STO 40
+IN
+STO 44
+LDA 44
+SUB 40
+BRP 10
+LDA 40
+OUT
+HLT
+LDA 44
+OUT
+HLT

@@ -1,0 +1,17 @@
+Take any integer as input, if the number is greater than 5 print it
+If a > 5, print a
+Else if a = 0, then Halt
+Else if a < 5, then halt
+
+IN
+STO 99
+LDA 99
+SUB 51
+BRP 07
+BRZ 09
+BR 09
+LDA 99
+OUT 
+HLT
+*51
+DAT 005
