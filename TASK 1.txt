@@ -1,0 +1,11 @@
+TASK 1: Subtract two values taken from user input.
+
+IN
+STO 98
+IN
+STO 99
+LDA 98
+SUB 99
+OUT
+HLT Halt
+

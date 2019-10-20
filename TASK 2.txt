@@ -1,0 +1,11 @@
+2ND TASK: Add two hardcoded inputs together.
+
+ADD 98
+ADD 99
+OUT
+HLT halt
+*98
+DAT 100
+*99
+DAT 110
+
